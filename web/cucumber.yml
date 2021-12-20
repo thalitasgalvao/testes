@@ -1,0 +1,9 @@
+---
+default: --no-source --color --format pretty --format html --out report.html --publish-quiet
+bdd: -f pretty
+dots: -f progress
+html: --format pretty --format html --out=logs/html/report.html
+allure: --format AllureCucumber::CucumberFormatter --out=logs
+
+
+
